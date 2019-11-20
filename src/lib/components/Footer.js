@@ -1,4 +1,5 @@
 import React from 'react';
+import Newsletter from './footer/Newsletter';
 
 class Footer extends React.Component {
 	render() {
@@ -52,16 +53,7 @@ class Footer extends React.Component {
 		                <li className="email">emailaddress@domain.com</li>
 		              </ul>
 		            </div>
-
-		            <div className="block-7">
-		              <form action="#" method="post">
-		                <label htmlFor="email_subscribe" className="footer-heading">Subscribe</label>
-		                <div className="form-group">
-		                  <input type="text" className="form-control py-4" id="email_subscribe" placeholder="Email" />
-		                  <input type="submit" className="btn btn-sm btn-primary" value="Send" />
-		                </div>
-		              </form>
-		            </div>
+		            <Newsletter />
 		          </div>
 		        </div>
 		        <div className="row pt-5 mt-5 text-center">

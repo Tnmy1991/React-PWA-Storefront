@@ -35,7 +35,7 @@ jQuery(document).ready(function($) {
 	};
 	setTimeout(function() {
 		slider();
-	}, 3000);
+	}, 5000);
 
 	var siteMenuClone = function() {
 

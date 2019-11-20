@@ -3,12 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@amcharts/amcharts4": "^4.5.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.5.5",
+    "email-validator": "^2.0.4",
+    "express": "^4.17.1",
+    "ignore-styles": "^5.0.1",
+    "mailchimp-api-v3": "^1.13.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-html-parser": "^2.0.2",
+    "react-loading-bar": "0.0.7",
+    "react-mailchimp-subscribe": "^2.1.0",
+    "react-redux": "^7.1.0",
+    "react-redux-loading-bar": "^4.3.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "react-singletons": "^1.4.0",
+    "redux": "^4.0.3",
     "woocommerce-api": "^1.4.1"
   },
   "scripts": {
@@ -31,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5"
   }
 }

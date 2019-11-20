@@ -7,11 +7,11 @@ import { BrowserRouter as Router } from "react-router-dom";
 function App() {
 	return (
 		<React.Fragment>
-			<Header />
 			<Router>
+				<Header />
 				<WooRouter />
+				<Footer />
 			</Router>
-			<Footer />
 		</React.Fragment>
 	);
 }

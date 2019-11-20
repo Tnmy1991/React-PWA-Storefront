@@ -44,7 +44,7 @@ class FeaturedProduct extends React.Component {
 		          <div className="col-md-12">
 		            <div className="nonloop-block-3 owl-carousel">
 		            	{items.map(item => (
-		            		<ProductTile data={item} />
+		            		<ProductTile key={item.id} data={item} />
           				))}
 		            </div>
 		          </div>
